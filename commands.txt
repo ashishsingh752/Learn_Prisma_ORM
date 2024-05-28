@@ -3,3 +3,12 @@ Prisma is a modern database toolkit that simplifies database management and acce
 * It allows you to perform database operations like querying, inserting, updating, and deleting records using a fluent API.
 
 
+// ----------------- To make the .ts file to the .js file 
+command:-    tsc.cmd -b 
+
+//---------- run the file 
+node dist/index.js
+
+// to migrate the data into the postgreSQL use the command as 
+npx prisma generate
+
